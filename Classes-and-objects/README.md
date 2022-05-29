@@ -1,5 +1,5 @@
 # Task Title: Classes and Objects
-** Read the Guidelines first here **: [Guidelines](https://docs.google.com/document/d/1TOta6YNEdqD6r3PP1B5L-wklhgwo9nufdrsScSEBfH0/edit)
+**Read the Guidelines first here** : [Guidelines](https://docs.google.com/document/d/1TOta6YNEdqD6r3PP1B5L-wklhgwo9nufdrsScSEBfH0/edit)
  
 
 1.  Download the Starter Project [here](https://downgit.github.io/#/home?url=https:%2F%2Fgithub.com%2FTobeTek%2FZuri%2Ftree%2Fmain%2Fstarter-files%2FClasses-and-Objects). You can follow the steps outlined in the guidelines.
