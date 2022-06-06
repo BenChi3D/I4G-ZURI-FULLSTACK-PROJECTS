@@ -11,32 +11,31 @@ class Student:
         pass
 
     def change_name(self, change_name):
-        self.change_name = change_name
+        self.name = change_name
         pass
 
     def change_age(self, change_age):
-        self.change_age = change_age
+        self.age = change_age
         pass
 
     def add_track(self, add_track):
-        self.add_track = add_track
+        self.tracks.append(add_track)
         pass
 
-    def get_score(self, get_score):
-        self.get_score = get_score
-        pass
+    def get_score(self):
+        return self.score
+
 
 
 Bob = Student("Bob", 26, ["FE", "BE"], 20.90)
-Bob = Student("Peter", 34, "UI/UX", " ")
 
 # Expected methods
-Bob.change_name("John")
+Bob.change_name("Peter")
 Bob.change_age(34)
 Bob.add_track("UI/UX")
-Bob.get_score(75)  # inputting a score
+Bob.get_score()  # returning the score
 
-print(Bob.change_name)
-print(Bob.change_age)
-print(Bob.add_track)
-print(Bob.get_score)
+print(Bob.name)
+print(Bob.age)
+print(Bob.tracks)
+print(Bob.get_score())
