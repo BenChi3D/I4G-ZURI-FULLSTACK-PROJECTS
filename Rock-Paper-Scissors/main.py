@@ -80,7 +80,7 @@ def replay():
     play_again = input("\nWill you like to play again? Enter yes or no\n").lower()
     if play_again == "yes":
         game()
-    if play_again == "no":
+    elif play_again == "no":
         print("Thank you for playing the game, better luck next time")
     else:
         replay()
@@ -105,4 +105,5 @@ def auto_restart():
         game()
         
 
+# function that calls the game to run
 game()
