@@ -75,6 +75,7 @@ def game():
         auto_restart()
 
 
+# function that asks user if they would like to replay the game after losing
 def replay():
     play_again = input("\nWill you like to play again? Enter yes or no\n").lower()
     if play_again == "yes":
@@ -85,6 +86,7 @@ def replay():
         replay()
 
 
+# function that asks user if they would like to replay the game after winning
 def replay_after_win():
     play_again = input("Will you like to play again? Enter yes or no\n").lower()
     if play_again == "yes":
@@ -95,6 +97,7 @@ def replay_after_win():
         replay_after_win()
 
 
+# function that automatically restarts the game if it is a tie
 def auto_restart():
         time.sleep(1)
         print("That is a tie, DRAW!!! we restart the game")
